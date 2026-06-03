@@ -15,7 +15,7 @@
  */
 
 // URL Firebase Realtime Database Anda (tanpa trailing slash)
-define('FIREBASE_DB_URL', 'https://ujikom-95c5c-default-rtdb.asia-southeast1.firebasedatabase.app/');
+define('FIREBASE_DB_URL', 'https://ujikom-95c5c-default-rtdb.asia-southeast1.firebasedatabase.app');
 
 // Database Secret (Legacy Token) — Ambil dari:
 // Firebase Console → Project Settings → Service Accounts → Database Secrets → Show
@@ -34,7 +34,7 @@ header('Content-Type: text/plain; charset=UTF-8');
 // ================================================================
 //  FUNGSI UTAMA
 // ================================================================
-
+    
 /**
  * Kirim request HTTP ke Firebase REST API menggunakan cURL
  *
